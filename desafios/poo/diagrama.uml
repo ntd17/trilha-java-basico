@@ -1,0 +1,41 @@
++----------------------------------+
+|          <<interface>>           |
+|            Smartphone            |
++----------------------------------+
+| + tocar()                        |
+| + pausar()                       |
+| + selecionarMusica()             |
+| + ligar()                        |
+| + atender()                      |
+| + iniciarCorreioVoz()            |
+| + exibirPagina()                 |
+| + adicionarNovaAba()             |
+| + atualizarPagina()              |
++----------------------------------+
+                  |
+                  | Implements
+                  v
++----------------------------------+
+|              iPhone              |
++----------------------------------+
+| + tocar()                        |
+| + pausar()                       |
+| + selecionarMusica()             |
+| + ligar()                        |
+| + atender()                      |
+| + iniciarCorreioVoz()            |
+| + exibirPagina()                 |
+| + adicionarNovaAba()             |
+| + atualizarPagina()              |
++----------------------------------+
+        |                    |-------------------------             
+        |                    |                        |
+        v                    v                        v
++----------------------+ +-----------------------+ +----------------------+
+| Reprodutor           | | Aparelho              | | Navegador            |
+| Musical              | | Telefonico            | | Internet             |
++----------------------+ +-----------------------+ +----------------------+
+| + tocar()            | | + ligar()             | | + exibirPagina()     |
+| + pausar()           | | + atender()           | | + adicionarNovaAba() |
+| + selecionarMusica() | | + iniciarCorreioVoz() | | + atualizarPagina()  |
++----------------------+ +-----------------------+ +----------------------+
